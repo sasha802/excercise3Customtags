@@ -29,55 +29,27 @@ public class Excercise3CustomGreetUserTag extends SimpleTagSupport {
 
         }
 
-        outputGreeting(timeNow, out);
-
-    }
-
-
-    private void outputGreeting(int timeNow, JspWriter out) {
-
         if ( timeNow >= 20 && timeNow < 24 ) {
 
-            try {
+            out.println("Good Night!");
 
-                out.println("Good Night!");
-
-            } catch (IOException ioException) {
-
-            }
 
         } else if ( timeNow >= 0 && timeNow < 12 ) {
 
-            try {
+            out.println("Good Morning!");
 
-                out.println("Good Morning!");
-
-            } catch (IOException ioException) {
-
-            }
 
         } else if ( timeNow >= 12 && timeNow < 16 ) {
 
-            try {
-
-                out.println("Good Day!");
-
-            } catch (IOException ioException) {
-
-            }
+            out.println("Good Day!");
 
         } else if ( timeNow >= 16 && timeNow < 20 ) {
 
-            try {
-
-                out.println("Good Evening!");
-
-            } catch (IOException ioException) {
-
-            }
+            out.println("Good Evening!");
 
         }
 
     }
+
 
 }
