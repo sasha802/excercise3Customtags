@@ -5,7 +5,7 @@
     <uri>http://sasha.com/tags</uri>
     <tag>
         <name>GreetUser</name>
-        <tag-class>com.sasha.Excercise3CustomGreetUserTag</tag-class>
+        <tag-class>com.sasha.Exercise3CustomGreetUserTag</tag-class>
         <body-content>empty</body-content>
     </tag>
 </taglib>

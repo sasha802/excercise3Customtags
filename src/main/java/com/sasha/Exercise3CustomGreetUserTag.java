@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 
-public class Excercise3CustomGreetUserTag extends SimpleTagSupport {
+public class Exercise3CustomGreetUserTag extends SimpleTagSupport {
     @Override
     public void doTag() throws JspException, IOException {
         super.doTag();
